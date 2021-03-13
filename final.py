@@ -1,7 +1,6 @@
 from pydub import AudioSegment
-from pydub.scipy_effects import low_pass_filter as lf
+from pydub.scipy_effects import low_pass_filter
 import pyaudio
-from pydub.playback import play
 from scipy.io.wavfile import write
 import threading as th
 import numpy as np
@@ -13,6 +12,7 @@ sample_width = 2
 channels = 1
 sample_rate = 16000 
 keep_going = True
+final_audio = AudioSegment.empty()
 
 def key_capture_thread():
     global keep_going
@@ -40,7 +40,6 @@ ax[1].set_xlim(0, chunk)
 line, = ax[0].plot(x, np.random.rand(chunk))
 line1, = ax[1].plot(x, np.random.rand(chunk))
 
-final_audio = AudioSegment.empty()
 while keep_going:
     th.Thread(target=key_capture_thread, args=(), name='key_capture_thread', daemon=True).start()
     data = stream.read(chunk)
