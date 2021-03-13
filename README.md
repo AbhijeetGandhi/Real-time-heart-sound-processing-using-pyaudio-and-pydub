@@ -1,5 +1,5 @@
 # Real-time Heart sound processing using pyaudio and pydub
-  This project aims at building 
+
 
 ## Table of contents
 * [General info](#general-info)
