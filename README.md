@@ -8,19 +8,20 @@
 * [Setup](#setup)
 * [Features](#features)
 * [Status](#status)
-* [Inspiration](#inspiration)
 * [Contact](#contact)
 
 ## General info
-Add more general information about project. What the purpose of the project is? Motivation?
+This project aims at building an Electronic Stethoscope and processing the raw sounds to obtain clear heart sounds. Here's a quick demo link to build your [own electronic stethoscope.](https://www.youtube.com/watch?v=pv3U3A6HQ18).
 
 ## Screenshots
 ![Example screenshot](./img/screenshot.png)
 
 ## Technologies
-* Tech 1 - version 1.0
-* Tech 2 - version 2.0
-* Tech 3 - version 3.0
+* [python 3.9.2.](https://www.python.org/downloads/)
+* [pydub 0.25.1](https://github.com/jiaaro/pydub)
+* [pyaudio 0.2.8](https://github.com/jleb/pyaudio)
+* [matplotlib 3.3.4](https://matplotlib.org/)
+* [scipy 1.6.1](https://www.scipy.org/)
 
 ## Setup
 Describe how to install / setup your local environement / add link to demo version.
@@ -35,15 +36,10 @@ List of features ready and TODOs for future development
 * Awesome feature 2
 * Awesome feature 3
 
-To-do list:
-* Wow improvement to be done 1
-* Wow improvement to be done 2
 
 ## Status
 Project is: _in progress_, _finished_, _no longer continue_ and why?
 
-## Inspiration
-Add here credits. Project inspired by..., based on...
 
 ## Contact
-Created by [@flynerdpl](https://www.flynerd.pl/) - feel free to contact me!
+Created by [@flynerdpl](https://www.flynerd.pl/) - feel free to contact me
