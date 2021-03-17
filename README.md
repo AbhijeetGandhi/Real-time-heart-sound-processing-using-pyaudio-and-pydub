@@ -19,9 +19,6 @@ This project aims at building an Electronic Stethoscope and processing the raw s
 * [matplotlib 3.3.4](https://matplotlib.org/)
 * [scipy 1.6.1](https://www.scipy.org/)
 
-## Setup
-
-
 ## Features
 * Filtering sound frequencies in real-time.
 * Amplifying the sound.
